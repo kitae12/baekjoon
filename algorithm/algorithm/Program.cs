@@ -7,9 +7,13 @@ namespace algorithm
     {
         static void Main(string[] args)
         {
-            string s = Console.ReadLine();
-            AaddB aaddB = new AaddB(s);
-            aaddB.GetResult();
+            //string s = Console.ReadLine();
+            //AaddB aaddB = new AaddB(s);
+            //aaddB.GetResult();
+
+            string s = Console.ReadLine(); // 1 3
+            AmulB amulB = new AmulB(s);
+
         }
     }
 }
